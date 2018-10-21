@@ -1,9 +1,10 @@
 # MongoDB-Sample
 ##Commands
-### Show Databases
-  show dbs
-###Create Database
-  use <database-name>
-###Drop Database
-  db.dropDatabase()
+
+### 1 Show Databases
+  		show dbs	
+### 2 Create Database
+  		use  database-name 
+### 3 Drop Database
+   db.dropDatabase()
   
