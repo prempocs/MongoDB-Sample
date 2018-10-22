@@ -68,8 +68,8 @@
     db.COLLECTION_NAME.ensureIndex({KEY:1})
     ensureIndex() method also accepts list of options (which are optional). Following is the list −
     
-    Parameter          |	Type 	  |    Description
-    -------------------|----------|----------------
+    Parameter           |	Type 	     |    Description
+    ------------------- | ---------- | ----------------
     background         |	Boolean |	Builds the index in the background so that building an index does not block other database activities.Specify true to build in the background. The default value is false.
     unique             |	Boolean |    Creates a unique index so that the collection will not accept insertion of documents where the index  key or keys match an existing value in the index. Specify true to create a unique index. The default value is false.name 	string 	The name of the index. If unspecified, MongoDB generates an index name by concatenating the names of the indexed fields and the sort order.
     dropDups 	         |  Boolean  |Creates a unique index on a field that may have duplicates. MongoDB indexes only the first occurrence of a key and removes all documents from the collection that contain subsequent occurrences of that key. Specify true to create unique index. The default value is false.
